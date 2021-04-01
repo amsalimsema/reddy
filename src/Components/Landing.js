@@ -5,7 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 import mic from "../Images/service.JPG";
 
 import { Bg } from "./Global";
-//import logo from "../Images/logo.png";
 
 const Wrap = styled.div`
   width: 100%;
