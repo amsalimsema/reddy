@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Carousel from "react-bootstrap/Carousel";
-import mic from "../Images/service.JPG";
+import mic from "../Images/service.jpeg";
 
 import { Bg } from "./Global";
 
