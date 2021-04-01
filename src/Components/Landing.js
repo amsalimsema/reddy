@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import Carousel from "react-bootstrap/Carousel";
 import mic from "../Images/service.JPG";
-import mic2 from "../Images/service.JPG";
+
 import { Bg } from "./Global";
 //import logo from "../Images/logo.png";
 
@@ -17,7 +17,7 @@ const BgOne = styled(Bg)`
   height: 100vh;
 `;
 const BgTwo = styled(Bg)`
-  background-image: url(${mic2});
+  background-image: url(${mic});
   height: 100vh;
 `;
 
