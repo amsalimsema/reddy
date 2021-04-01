@@ -61,7 +61,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/#shows"
+                    href="/#about"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >
@@ -70,7 +70,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/#about"
+                    href="/#services"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >
@@ -79,7 +79,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/#team"
+                    href="/#projects"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >
@@ -88,7 +88,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/"
+                    href="/#contact"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >
@@ -97,7 +97,7 @@ export default function NavTop() {
                 </NavItem>
                 <NavItem>
                   <NavLinks
-                    href="/#contact"
+                    href="/#team"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >

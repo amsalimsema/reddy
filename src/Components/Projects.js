@@ -7,6 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 import pic from "../Images/service.jpeg";
 import { Wrap } from "./About";
 import { ImgBox } from "./Services";
+import { Space } from "./Global";
 
 const Box = styled(ImgBox)`
   text-align: center;
@@ -15,7 +16,7 @@ const Box = styled(ImgBox)`
   border-radius: 0.5rem;
 
   &:hover {
-    border: 2px dotted black;
+    border: 2px dotted cyan;
     border-radius: 0.5rem;
   }
 `;
@@ -23,6 +24,7 @@ const Box = styled(ImgBox)`
 export default function Projects() {
   return (
     <>
+      <Space />
       <Wrap>
         <h4 className="font-weight-bold">PROJECTS ACCOMPLISHED BY REDDY'S:</h4>
         <Carousel fade>

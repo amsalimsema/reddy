@@ -13,7 +13,7 @@ export const GenLink = styled(Link)`
 // uniform spacing on top of all components to allow clarity after scroll
 
 export const Space = styled.div`
-  height: 80px;
+  height: 100px;
 `;
 
 // background attributes

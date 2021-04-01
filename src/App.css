@@ -74,7 +74,7 @@ p {
 
 /* change bg onscroll */
 .MobileNav {
-  height: 80px;
+  height: 83px;
   position: fixed;
   background-color: black;
   width: 100vw;

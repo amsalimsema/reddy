@@ -118,6 +118,7 @@ export const NavLinks = styled.a`
 export const Links = styled(Link)`
   text-decoration: none;
   color: #fff;
+  padding: 0rem 1rem;
   &:hover {
     color: cyan;
   }

@@ -4,11 +4,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import pic from "../Images/service.jpeg";
+import { Space } from "./Global";
 
 const Wrap = styled(Container)`
   width: 70vw;
   @media only screen and (max-width: 600px) {
-    width: 85vw;
+    width: 90vw;
   }
 `;
 export const ImgBox = styled.div`
@@ -25,6 +26,7 @@ export const ImgBox = styled.div`
 export default function Services() {
   return (
     <>
+      <Space />
       <Wrap>
         <h4 className="font-weight-bold">
           HIGHLY SPECIALIZED SERVICES BY REDDY'S:
