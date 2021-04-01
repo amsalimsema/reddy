@@ -76,7 +76,7 @@ p {
 .MobileNav {
   height: 80px;
   position: fixed;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.3);
   width: 100vw;
   z-index: 999;
 }
