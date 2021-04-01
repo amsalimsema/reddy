@@ -141,7 +141,7 @@ export const Drawer = styled.div`
   text-align: start;
   padding-left: 1rem;
   color: #fff;
-  border-top: 1px dotted red;
+  border-top: 1px dotted cyan;
   line-height: normal;
   @media only screen and (min-width: 769px) {
     display: none;

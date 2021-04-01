@@ -8,7 +8,7 @@ import pic from "../Images/service.jpeg";
 const Wrap = styled(Container)`
   width: 70vw;
   @media only screen and (max-width: 600px) {
-    width: 80vw;
+    width: 85vw;
   }
 `;
 export const ImgBox = styled.div`

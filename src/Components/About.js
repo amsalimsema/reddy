@@ -8,7 +8,7 @@ export const Wrap = styled(Container)`
   margin: 5rem auto;
   width: 70vw;
   @media only screen and (max-width: 600px) {
-    width: 80vw;
+    width: 85vw;
   }
 `;
 const Info = styled.div``;
