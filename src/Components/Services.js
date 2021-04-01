@@ -30,26 +30,14 @@ export default function Services() {
         <Row>
           <Col md={6}>
             <ImgBox>
-              <h5>SERVICE NAME</h5>
+              <h5 className="font-weight-bold">BOREHOLE DRILLING</h5>
               <img src={pic} alt="service" className="w-100 rounded" />
-              <p>Description of service:</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dolore beatae quas, maiores modi reprehenderit iste
-                aliquam. Laborum, qui nemo qui nemo qui nemo.
-              </p>
             </ImgBox>
           </Col>
           <Col md={6}>
             <ImgBox>
-              <h5>SERVICE NAME</h5>
+              <h5 className="font-weight-bold">BOREHOLE REHABILITATION</h5>
               <img src={pic} alt="service" className="w-100 rounded" />
-              <p>Description of service:</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dolore beatae quas, maiores modi reprehenderit iste
-                aliquam. Laborum, qui nemo qui nemo qui nemo.
-              </p>
             </ImgBox>
           </Col>
         </Row>
@@ -57,26 +45,44 @@ export default function Services() {
         <Row>
           <Col md={6}>
             <ImgBox>
-              <h5>SERVICE NAME</h5>
+              <h5 className="font-weight-bold">HYDRO GEOLOGICAL SURVEY</h5>
               <img src={pic} alt="service" className="w-100 rounded" />
-              <p>Description of service:</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dolore beatae quas, maiores modi reprehenderit iste
-                aliquam. Laborum, qui nemo qui nemo qui nemo.
-              </p>
             </ImgBox>
           </Col>
           <Col md={6}>
             <ImgBox>
-              <h5>SERVICE NAME</h5>
+              <h5 className="font-weight-bold">TEST PUMPING</h5>
               <img src={pic} alt="service" className="w-100 rounded" />
-              <p>Description of service:</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dolore beatae quas, maiores modi reprehenderit iste
-                aliquam. Laborum, qui nemo qui nemo qui nemo.
-              </p>
+            </ImgBox>
+          </Col>
+        </Row>
+        {/* end of first row */}
+        <Row>
+          <Col md={6}>
+            <ImgBox>
+              <h5 className="font-weight-bold">CASTING</h5>
+              <img src={pic} alt="service" className="w-100 rounded" />
+            </ImgBox>
+          </Col>
+          <Col md={6}>
+            <ImgBox>
+              <h5 className="font-weight-bold">PUMP SUPPLY & INSTALLATION</h5>
+              <img src={pic} alt="service" className="w-100 rounded" />
+            </ImgBox>
+          </Col>
+        </Row>
+        {/* end of first row */}
+        <Row>
+          <Col md={6}>
+            <ImgBox>
+              <h5 className="font-weight-bold">WATER SUPPLY SYSTEMS</h5>
+              <img src={pic} alt="service" className="w-100 rounded" />
+            </ImgBox>
+          </Col>
+          <Col md={6}>
+            <ImgBox>
+              <h5 className="font-weight-bold">GENERAL CONSULTANCY</h5>
+              <img src={pic} alt="service" className="w-100 rounded" />
             </ImgBox>
           </Col>
         </Row>
