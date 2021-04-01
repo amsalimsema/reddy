@@ -11,7 +11,7 @@ const Wrap = styled(Container)`
     width: 80vw;
   }
 `;
-const ImgBox = styled.div`
+export const ImgBox = styled.div`
   margin-bottom: 3rem;
   transition: all 0.8s ease-in-out;
   cursor: pointer;

@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Carousel from "react-bootstrap/Carousel";
-import mic from "../Images/abstract.jpg";
-import mic2 from "../Images/abstract.jpg";
+import mic from "../Images/service.JPG";
+import mic2 from "../Images/service.JPG";
 import { Bg } from "./Global";
-import logo from "../Images/logo.png";
+//import logo from "../Images/logo.png";
 
 const Wrap = styled.div`
   width: 100%;
@@ -34,7 +34,8 @@ export default function Landing() {
                 initial={{ x: -1000 }}
                 animate={{ x: [10, 10, 0, -50, 20] }}
               >
-                <img src={logo} alt="logo" style={{ width: "120px" }} />
+                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+                <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
               </motion.div>
             </Carousel.Caption>
@@ -47,7 +48,8 @@ export default function Landing() {
                 initial={{ x: -1000 }}
                 animate={{ x: [10, 10, 0, -50, 20] }}
               >
-                <img src={logo} alt="logo" style={{ width: "120px" }} />
+                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+                <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
               </motion.div>
             </Carousel.Caption>
@@ -60,7 +62,8 @@ export default function Landing() {
                 initial={{ x: -1000 }}
                 animate={{ x: [10, 10, 0, -50, 20] }}
               >
-                <img src={logo} alt="logo" style={{ width: "120px" }} />
+                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+                <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
               </motion.div>
             </Carousel.Caption>

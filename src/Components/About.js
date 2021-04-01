@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Wrap = styled(Container)`
+export const Wrap = styled(Container)`
   margin: 5rem auto;
   width: 70vw;
   @media only screen and (max-width: 600px) {
