@@ -15,8 +15,10 @@ export const ImgBox = styled.div`
   margin-bottom: 3rem;
   transition: all 0.8s ease-in-out;
   cursor: pointer;
+  filter: grayscale(1);
   &:hover {
     transform: translateY(2px);
+    filter: grayscale(0);
   }
 `;
 
