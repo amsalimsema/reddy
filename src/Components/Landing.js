@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { motion } from "framer-motion";
 import Carousel from "react-bootstrap/Carousel";
 import mic from "../Images/service.jpeg";
+import Fade from "react-reveal/Fade";
 
 import { Bg } from "./Global";
 
@@ -25,46 +25,34 @@ export default function Landing() {
     <>
       <Wrap>
         <Carousel fade>
-          <Carousel.Item interval={10000}>
+          <Carousel.Item interval={5000}>
             <BgOne />
 
             <Carousel.Caption>
-              <motion.div
-                initial={{ x: -1000 }}
-                animate={{ x: [10, 10, 0, -50, 20] }}
-              >
-                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+              <Fade bottom>
                 <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
-              </motion.div>
+              </Fade>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={10000}>
+          <Carousel.Item interval={5000}>
             <BgOne />
 
             <Carousel.Caption>
-              <motion.div
-                initial={{ x: -1000 }}
-                animate={{ x: [10, 10, 0, -50, 20] }}
-              >
-                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+              <Fade bottom>
                 <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
-              </motion.div>
+              </Fade>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={10000}>
+          <Carousel.Item interval={5000}>
             <BgTwo />
 
             <Carousel.Caption>
-              <motion.div
-                initial={{ x: -1000 }}
-                animate={{ x: [10, 10, 0, -50, 20] }}
-              >
-                {/* <img src={logo} alt="logo" style={{ width: "120px" }} /> */}
+              <Fade bottom>
                 <h4>REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD</h4>
                 <h5 style={{ color: "cyan" }}>Reddy's Campaign tagline</h5>
-              </motion.div>
+              </Fade>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
