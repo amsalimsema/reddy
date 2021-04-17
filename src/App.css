@@ -13,7 +13,7 @@ p {
 
 /* carousels */
 .carousel-indicators li {
-  background-color: black;
+  background-color: cyan;
   width: 20px;
 }
 .carousel-control-prev-icon,
@@ -23,18 +23,18 @@ p {
 }
 
 .carousel-caption {
-  color: rgb(0, 0, 0, 0.9);
+  color: #fff;
   position: absolute;
   z-index: 10;
-  top: 25%;
-  transform: translateY(25%);
+  top: 23%;
+  transform: translateY(23%);
 }
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
   .carousel-caption {
     top: 25%;
     transform: translateY(25%);
   }
-}
+} */
 
 /* change bg onscroll */
 .MobileNav {

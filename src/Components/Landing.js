@@ -34,9 +34,9 @@ export default function Landing() {
 
             <Carousel.Caption>
               <Fade bottom>
-                <h1 style={{ fontWeight: "bold" }}>
+                <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
-                </h1>
+                </h3>
                 <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
               </Fade>
             </Carousel.Caption>
@@ -46,9 +46,9 @@ export default function Landing() {
 
             <Carousel.Caption>
               <Fade bottom>
-                <h1 style={{ fontWeight: "bold" }}>
+                <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
-                </h1>
+                </h3>
                 <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
               </Fade>
             </Carousel.Caption>
@@ -58,9 +58,9 @@ export default function Landing() {
 
             <Carousel.Caption>
               <Fade bottom>
-                <h1 style={{ fontWeight: "bold" }}>
+                <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
-                </h1>
+                </h3>
                 <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
               </Fade>
             </Carousel.Caption>
