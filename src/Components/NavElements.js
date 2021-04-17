@@ -25,9 +25,14 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-top: 1.3rem;
+  margin-top: 1.6rem;
   margin-left: -1rem;
   z-index: 50;
+  color: #fff;
+  &:hover {
+    color: cyan;
+    text-decoration: none;
+  }
 `;
 
 export const MobileIcon = styled.div`
