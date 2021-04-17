@@ -10,46 +10,10 @@ body {
 p {
   font-size: 1.1rem;
 }
-/* program tabs */
-.nav-tabs {
-  padding-top: 2rem;
-  border-radius: 0;
-  border-bottom: 0;
-  /* font-size: 0.7rem; */
-}
-.nav-tabs .nav-link {
-  margin-bottom: -1px;
-  border: 0;
-}
-.nav-tabs .nav-link {
-  color: black;
-  font-weight: bold;
-  padding: 0;
-  margin: 0 0.3rem;
-  transition: 0.3s all linear;
-}
-.nav-tabs .nav-link:hover {
-  color: #fff;
-  border-bottom: 2px solid red;
-  border-top: 2px solid red;
-}
-.nav-tabs .nav-link.active {
-  color: red;
-  background-color: transparent;
-}
 
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  justify-content: center;
-  overflow: hidden;
-}
 /* carousels */
 .carousel-indicators li {
-  background-color: cyan;
+  background-color: black;
   width: 20px;
 }
 .carousel-control-prev-icon,
@@ -59,6 +23,7 @@ p {
 }
 
 .carousel-caption {
+  color: rgb(0, 0, 0, 0.9);
   position: absolute;
   z-index: 10;
   top: 25%;
@@ -67,8 +32,7 @@ p {
 @media only screen and (max-width: 650px) {
   .carousel-caption {
     top: 25%;
-    left: 1%;
-    transform: translate(1%, 25%);
+    transform: translateY(25%);
   }
 }
 
@@ -76,10 +40,10 @@ p {
 .MobileNav {
   height: 83px;
   position: fixed;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.7);
   width: 100vw;
   z-index: 999;
 }
 .MobileNav.active {
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.9);
 }

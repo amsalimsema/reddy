@@ -12,10 +12,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  Drawer,
-  Links,
 } from "./NavElements";
-//import { Call, Envelope, Map } from "./Contact";
 
 export default function NavTop() {
   // open and close drawer
@@ -51,13 +48,13 @@ export default function NavTop() {
 
               <NavMenu onClick={handleClick} click={click}>
                 <NavItem>
-                  <Links
-                    to="/legal"
+                  <NavLinks
+                    href="/#home"
                     onClick={closeMobileMenu}
                     style={{ textDecoration: "none" }}
                   >
-                    LEGAL
-                  </Links>
+                    HOME
+                  </NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks
@@ -95,56 +92,6 @@ export default function NavTop() {
                     CONTACT US
                   </NavLinks>
                 </NavItem>
-                <NavItem>
-                  <NavLinks
-                    href="/#team"
-                    onClick={closeMobileMenu}
-                    style={{ textDecoration: "none" }}
-                  >
-                    TEAM
-                  </NavLinks>
-                </NavItem>
-
-                <Drawer>
-                  {/* <p className="pt-1">
-                    <Call />
-                    &nbsp; &nbsp;
-                    <span>Studio Lines:</span>
-                    <br />
-                    <a
-                      href="tel: 0776910350"
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      0776910350
-                    </a>
-                    &nbsp;/ &nbsp;
-                    <a
-                      href="tel:  0794559220"
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      0794559220
-                    </a>
-                  </p>
-                  <p>
-                    <Envelope />
-                    &nbsp; &nbsp;
-                    <span>Email:</span>
-                    <br />
-                    <a
-                      href="mailto:tembofm103.5@gmail.com 
-                  "
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      tembofm103.5@gmail.com
-                    </a>
-                  </p>
-                  <p>
-                    <Map />
-                    &nbsp; &nbsp;
-                    <span>Address:</span>
-                    <br /> P-Star building at Hilltop Plot 25, Ogwok Road.
-                  </p> */}
-                </Drawer>
               </NavMenu>
             </NavbarContainer>
           </Nav>

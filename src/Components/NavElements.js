@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled(Container)`
   display: flex;
+
   justify-content: space-between;
   // height: 80px;
   ${Container}
@@ -48,10 +49,11 @@ export const NavMenu = styled.ul`
   //   align-items: center;
   list-style: none;
   //   text-align: center;
+  flex-direction: row;
   @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
+    padding-top: 4.5rem;
     padding-left: 1.5rem;
     width: 100%;
     height: 100vh;
@@ -60,21 +62,21 @@ export const NavMenu = styled.ul`
     opacity: 1;
     transition: all 0.3s ease;
     background-color: black;
-    margin-top: 80px;
+    margin-top: -0.1rem;
   }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 4.5rem;
     padding-left: 2rem;
     width: 50%;
     height: 100vh;
     position: absolute;
-    margin-top: 80px;
     right: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background-color: black;
+    margin-top: -0.1rem;
   }
   @media screen and (min-width: 1024px) {
     margin-top: 3rem;
@@ -115,14 +117,6 @@ export const NavLinks = styled.a`
     }
   }
 `;
-export const Links = styled(Link)`
-  text-decoration: none;
-  color: #fff;
-  padding: 0rem 1rem;
-  &:hover {
-    color: cyan;
-  }
-`;
 
 export const NavBtnLink = styled(Link)`
   display: flex;
@@ -135,16 +129,4 @@ export const NavBtnLink = styled(Link)`
   border: none;
   outline: none;
   margin-left: 3rem;
-`;
-// drawer only
-
-export const Drawer = styled.div`
-  text-align: start;
-  padding-left: 1rem;
-  color: #fff;
-  border-top: 1px dotted cyan;
-  line-height: normal;
-  @media only screen and (min-width: 769px) {
-    display: none;
-  }
 `;

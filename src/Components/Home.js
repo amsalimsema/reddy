@@ -3,12 +3,14 @@ import About from "./About";
 import Landing from "./Landing";
 import Projects from "./Projects";
 import Services from "./Services";
-import Team from "./Team";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
     <>
-      <Landing />
+      <div id="home">
+        <Landing />
+      </div>
       <div id="about">
         <About />
       </div>
@@ -18,8 +20,8 @@ export default function Home() {
       <div id="projects">
         <Projects />
       </div>
-      <div id="team">
-        <Team />
+      <div id="contact">
+        <Contact />
       </div>
     </>
   );

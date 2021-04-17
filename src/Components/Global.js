@@ -23,11 +23,7 @@ export const Bg = styled.div`
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(1);
   transition: all 0.8s ease-in-out;
-  &:hover {
-    filter: grayscale(0);
-  }
 `;
 
 // show details
