@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Wrap } from "./About";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
 import { AiFillTag } from "react-icons/ai";
 import { MdLocalPostOffice } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -42,11 +43,129 @@ const Footer = styled.div`
   margin-top: 3rem;
 `;
 export default function Contact() {
+  //Form validation
+  const [validated, setValidated] = useState(false);
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
+  };
+
+  // success
+  const [success, setSuccess] = useState(false);
+  useEffect(() => {
+    if (window.location.search.includes("success=true")) {
+      setSuccess(true);
+    }
+  }, []);
   return (
     <>
       <Space />
       <Wrap>
         <h4 className="font-weight-bold">CONTACT REDDY'S:</h4>
+        <Row>
+          <Col md={6}>
+            <Form
+              noValidate
+              validated={validated}
+              onSubmit={handleSubmit}
+              name="reddys"
+              method="POST"
+              data-netlify="true"
+              action="/?success=true"
+              id="reddysinner"
+              autoComplete="off"
+              style={{ padding: "3rem 0 2rem 0" }}
+            >
+              {success && (
+                <p style={{ color: "green" }}>Thanks for getting in touch!</p>
+              )}
+
+              <input type="hidden" name="form-name" value="reddys" />
+              <Form.Row>
+                <Form.Group as={Col} md="12" controlId="validationCustom01">
+                  {/* <Form.Label>Name:</Form.Label> */}
+                  <Form.Control
+                    type="text"
+                    placeholder="Full Name"
+                    required
+                    name="name"
+                  />
+
+                  <Form.Control.Feedback type="invalid">
+                    Please provide your first name.
+                  </Form.Control.Feedback>
+                </Form.Group>
+
+                <Form.Group as={Col} md="12" controlId="validationCustom015">
+                  {/* <Form.Label>Name:</Form.Label> */}
+                  <Form.Control
+                    type="tel"
+                    placeholder="Your number"
+                    required
+                    name="phone"
+                    pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+                  />
+
+                  <Form.Control.Feedback type="invalid">
+                    Please provide a valid phone number eg. &nbsp; 0782442281
+                  </Form.Control.Feedback>
+                </Form.Group>
+
+                <Form.Group as={Col} md="12" controlId="validationCustom014">
+                  {/* <Form.Label>Email:</Form.Label> */}
+                  <Form.Control
+                    type="email"
+                    placeholder="Your email"
+                    required
+                    name="email"
+                  />
+
+                  <Form.Control.Feedback type="invalid">
+                    Please provide a valid email.
+                  </Form.Control.Feedback>
+                </Form.Group>
+
+                <Form.Group as={Col} md="12" controlId="validationCustom013">
+                  {/* <Form.Label>Message:</Form.Label> */}
+                  <Form.Control
+                    as="textarea"
+                    placeholder="Type message here..."
+                    required
+                    name="message"
+                  />
+
+                  <Form.Control.Feedback type="invalid">
+                    Please type your message
+                  </Form.Control.Feedback>
+                </Form.Group>
+              </Form.Row>
+              <button type="submit" style={{ width: "100%", marginTop: "0" }}>
+                <small>Submit</small>
+              </button>
+            </Form>
+          </Col>
+          <Col md={6}>
+            <div style={{ width: "100%" }}>
+              <iframe
+                title="reddys"
+                width="100%"
+                height="350"
+                frameBorder="0"
+                scrolling="no"
+                marginHeight="0"
+                marginWidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=Kawempe,%20Kalerwe%20-%20Tula%20Road,%20Kampala+(Reddy's%20borehole%20and%20technical%20services)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
+          </Col>
+        </Row>
+        <div className="pt-5"></div>
         <Row>
           <Col md={6}>
             <div style={{ fontSize: "1rem" }}>

@@ -23,7 +23,10 @@ const BgThree = styled(Bg)`
   background-image: url("https://images.ctfassets.net/wlgvz2z255oc/5Fy5vFddZ6SItl7Yq3FC5z/5826fb386460f038c56b75c6b7b4d3b8/onereddy.jpg?w=1920&h=1080&fm=jpg&fl=progressive");
   height: 100vh;
 `;
-
+const BgFour = styled(Bg)`
+  background-image: url("https://images.ctfassets.net/wlgvz2z255oc/6Y15QBMnI7uJ3V5S3i0KsQ/efb4b3ac2e5ecae146f417e346694496/machinery.jpg?w=1920&h=1080&fm=jpg&fl=progressive");
+  height: 100vh;
+`;
 export default function Landing() {
   return (
     <>
@@ -37,7 +40,9 @@ export default function Landing() {
                 <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
                 </h3>
-                <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
+                <h4 style={{ fontWeight: "bold" }}>
+                  Water supply & Elevated tanks
+                </h4>
               </Fade>
             </Carousel.Caption>
           </Carousel.Item>
@@ -49,7 +54,9 @@ export default function Landing() {
                 <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
                 </h3>
-                <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
+                <h4 style={{ fontWeight: "bold" }}>
+                  Water supply & Elevated tanks
+                </h4>
               </Fade>
             </Carousel.Caption>
           </Carousel.Item>
@@ -61,7 +68,19 @@ export default function Landing() {
                 <h3 style={{ fontWeight: "bold" }}>
                   REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
                 </h3>
-                <h4 style={{ fontWeight: "bold" }}>Reddy's Campaign tagline</h4>
+                <h4 style={{ fontWeight: "bold" }}>Solar supply systems</h4>
+              </Fade>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={5000}>
+            <BgFour />
+
+            <Carousel.Caption>
+              <Fade bottom>
+                <h3 style={{ fontWeight: "bold" }}>
+                  REDDY’S BOREHOLE AND TECHNICAL SERVICES LTD
+                </h3>
+                <h4 style={{ fontWeight: "bold" }}>Borehole drilling</h4>
               </Fade>
             </Carousel.Caption>
           </Carousel.Item>

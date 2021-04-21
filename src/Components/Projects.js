@@ -35,7 +35,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>RWENTONDO PUMP STATION - 1</p>
                 </Box>
               </Col>
               <Col md={6}>
@@ -45,7 +45,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>NYABUGANDO CHLORINE HOUSE - 1</p>
                 </Box>
               </Col>
             </Row>
@@ -59,7 +59,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>OFFUA-III-WATER-SOURCE-1</p>
                 </Box>
               </Col>
               <Col md={6}>
@@ -69,7 +69,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>OMUGO-VI-WATER-SOURCE-1</p>
                 </Box>
               </Col>
             </Row>
@@ -83,7 +83,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>OMUGO-VI-WATER-SOURCE-2</p>
                 </Box>
               </Col>
               <Col md={6}>
@@ -93,7 +93,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>NYABUGANDO CHLORINE HOUSE - 2</p>
                 </Box>
               </Col>
             </Row>
@@ -107,7 +107,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>OMUGO-VI-WATER-SOURCE-2</p>
                 </Box>
               </Col>
               <Col md={6}>
@@ -117,7 +117,7 @@ export default function Projects() {
                     alt="project"
                     className="w-100 rounded"
                   />
-                  <p>OMUGO VI WATER SOURCE</p>
+                  <p>RWENTONDO PUMP STATION - 1</p>
                 </Box>
               </Col>
             </Row>
