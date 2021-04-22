@@ -39,7 +39,6 @@ export default function NavTop() {
           <Nav>
             <NavbarContainer>
               <NavLogo to="/" onClick={closeMobileMenu}>
-                {/* <h3>REDDY'S&reg;</h3> */}
                 <img
                   src={logo}
                   alt="logo"
