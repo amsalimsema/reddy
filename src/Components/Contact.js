@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Wrap } from "./About";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { AiFillTag } from "react-icons/ai";
 import { MdLocalPostOffice } from "react-icons/md";
@@ -42,6 +43,7 @@ const Footer = styled.div`
   font-weight: bold;
   margin-top: 3rem;
 `;
+const Btn = styled(Button)``;
 export default function Contact() {
   //Form validation
   const [validated, setValidated] = useState(false);
@@ -80,7 +82,7 @@ export default function Contact() {
               action="/?success=true"
               id="reddysinner"
               autoComplete="off"
-              style={{ padding: "3rem 0 2rem 0" }}
+              style={{ padding: "0.5rem 0 2rem 0" }}
             >
               {success && (
                 <p style={{ color: "green" }}>Thanks for getting in touch!</p>
@@ -145,9 +147,9 @@ export default function Contact() {
                   </Form.Control.Feedback>
                 </Form.Group>
               </Form.Row>
-              <button type="submit" style={{ width: "100%", marginTop: "0" }}>
-                <small>Submit</small>
-              </button>
+              <Btn type="submit" style={{ width: "100%", marginTop: "0" }}>
+                <small>SEND</small>
+              </Btn>
             </Form>
           </Col>
           <Col md={6}>

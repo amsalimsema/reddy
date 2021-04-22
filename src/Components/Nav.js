@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-//import logo from "../Images/logo.png";
+import logo from "../Images/reddy.jpg";
 import "../App.css";
 
 import {
@@ -39,8 +39,12 @@ export default function NavTop() {
           <Nav>
             <NavbarContainer>
               <NavLogo to="/" onClick={closeMobileMenu}>
-                <h3>REDDY'S&reg;</h3>
-                {/* <img src={logo} alt="logo" style={{ width: "100px" }} /> */}
+                {/* <h3>REDDY'S&reg;</h3> */}
+                <img
+                  src={logo}
+                  alt="logo"
+                  style={{ width: "46.5px", height: "67.5px" }}
+                />
               </NavLogo>
               <MobileIcon onClick={handleClick}>
                 {click ? <FaTimes /> : <FaBars />}

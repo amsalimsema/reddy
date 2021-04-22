@@ -26,7 +26,7 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-top: 1.6rem;
-  margin-left: -1rem;
+  margin-left: 0rem;
   z-index: 50;
   color: #fff;
   &:hover {
