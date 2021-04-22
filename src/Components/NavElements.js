@@ -26,7 +26,7 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-top: 1.6rem;
-  margin-left: 0rem;
+  margin-left: -1rem;
   z-index: 50;
   color: #fff;
   &:hover {
@@ -58,7 +58,7 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
-    padding-top: 4.5rem;
+    padding-top: 8rem;
     padding-left: 1.5rem;
     width: 100%;
     height: 100vh;
@@ -67,7 +67,8 @@ export const NavMenu = styled.ul`
     opacity: 1;
     transition: all 0.3s ease;
     background-color: black;
-    margin-top: -0.1rem;
+    margin-top: 1.1rem;
+    // margin-top: -0.1rem;
   }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     display: flex;
@@ -81,7 +82,8 @@ export const NavMenu = styled.ul`
     opacity: 1;
     transition: all 0.5s ease;
     background-color: black;
-    margin-top: -0.1rem;
+    // margin-top: -0.1rem;
+    margin-top: 2rem;
   }
   @media screen and (min-width: 1024px) {
     margin-top: 3rem;

@@ -79,8 +79,7 @@ export default function Contact() {
               name="reddys"
               method="POST"
               data-netlify="true"
-              // action="/?success=true"
-              action="/#contact/?success=true"
+              action="/?success=true"
               id="reddysinner"
               autoComplete="off"
               style={{ padding: "0.5rem 0 2rem 0" }}
