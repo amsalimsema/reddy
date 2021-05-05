@@ -202,7 +202,7 @@ export default function Contact() {
               </p>
               <p>
                 <a
-                  href="https://wa.me/256709234234/?text=Hello there"
+                  href="https://wa.me/256709234234/?text=Hello Reddys"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="WhatsApp"
