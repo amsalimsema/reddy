@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { RiWhatsappFill } from "react-icons/ri";
 import { AiFillTag } from "react-icons/ai";
 import { MdLocalPostOffice } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -197,6 +198,18 @@ export default function Contact() {
                   style={{ color: "inherit" }}
                 >
                   <Postal /> &nbsp;&nbsp;rbtsltd.ug@gmail.com
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://wa.me/256709234234/?text=Hello there"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="WhatsApp"
+                  style={{ color: "inherit" }}
+                >
+                  <RiWhatsappFill style={{ fontSize: "2rem" }} />
+                  &nbsp;&nbsp;Chat With Us
                 </a>
               </p>
             </div>
