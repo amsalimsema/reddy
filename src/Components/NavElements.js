@@ -96,16 +96,6 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavItemBtn = styled.li`
-  @media screen and (max-width: 1024px) {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 100%;
-    // height: 120px;
-  }
-`;
-
 export const NavLinks = styled.a`
   color: #fff;
   display: flex;
@@ -123,17 +113,4 @@ export const NavLinks = styled.a`
       text-decoration: none;
     }
   }
-`;
-
-export const NavBtnLink = styled(Link)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  //   padding: 8px 16px;
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  margin-left: 3rem;
 `;

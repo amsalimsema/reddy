@@ -29,12 +29,6 @@ p {
   top: 23%;
   transform: translateY(23%);
 }
-/* @media only screen and (max-width: 650px) {
-  .carousel-caption {
-    top: 25%;
-    transform: translateY(25%);
-  }
-} */
 
 /* change bg onscroll */
 .MobileNav {
